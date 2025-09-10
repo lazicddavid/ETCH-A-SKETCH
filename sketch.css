@@ -8,10 +8,18 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
 .title {
   padding: 50px;
   color: white;
   font-size: 2rem;
+  margin-bottom: 30px;
 }
 
 .red-title {
@@ -23,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 button.btn {
@@ -32,10 +40,12 @@ button.btn {
   background: black;
   color: white;
   border: 2px solid white;
-  padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button.btn:hover {
