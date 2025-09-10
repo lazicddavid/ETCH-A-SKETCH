@@ -2,22 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="sketch.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>table</title>
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="sketch.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="title">ETCH A <span class="red-title">SKETCH</span></div>
+    <div class="title">ETCH A <span class="red-title">SKETCH</span></div>
 
+    <div class="container">
       <div class="buttons">
+        <p>Choose your colors:</p>
+
+        <div>
+          <input
+            type="color"
+            id="background"
+            name="background"
+            value="oklab(50% 0.1 0.1 / 0.5)"
+            colorspace="display-p3"
+            alpha
+          />
+          <label for="background">Background color</label>
+        </div>
+
         <button class="btn color-mode">Color Mode</button>
         <button class="btn random-mode">Random Mode</button>
         <button class="btn eraser">Eraser</button>
         <button class="btn clear">Clear</button>
       </div>
+
+      <div class="board"></div>
     </div>
-    <div class="board" id="board"></div>
 
     <script src="sketch.js"></script>
   </body>

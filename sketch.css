@@ -5,26 +5,28 @@
 body {
   background-color: black;
   display: flex;
-  justify-content: center;
-}
-
-.container {
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-top: 50px;
+  align-items: center;
 }
 
 .title {
-  padding: 50px;
+  padding: 30px;
   color: white;
   font-size: 2rem;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .red-title {
   font-size: 3.3rem;
   color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 .buttons {
@@ -54,16 +56,15 @@ button.btn:hover {
 }
 
 .board {
-  margin-top: 200px;
-  width: 440px;
-  height: 440px;
-  background: #fff;
+  width: 400px;
+  height: 400px;
   display: grid;
-  outline: 1px solid black;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
+  gap: 1px;
+  background: black;
 }
 .cell {
   background: #fff;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
 }
