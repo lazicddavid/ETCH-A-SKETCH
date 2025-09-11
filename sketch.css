@@ -70,6 +70,7 @@ button.btn:hover {
 }
 
 .cell {
+  color: #ccc;
   margin: auto;
   padding: 20px;
 }
