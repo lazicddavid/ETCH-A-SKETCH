@@ -69,8 +69,5 @@ button.btn:hover {
   border: 1px solid #ccc;
 }
 
-.cell {
-  color: #ccc;
-  margin: auto;
-  padding: 20px;
+.container {
 }
