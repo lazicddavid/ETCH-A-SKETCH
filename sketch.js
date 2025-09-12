@@ -34,5 +34,4 @@ btnEraser.addEventListener("click", () => (mode = "eraser"));
 btnClear.addEventListener("click", () => grid(SIZE));
 
 grid(SIZE);
-
-grid;
+board;
