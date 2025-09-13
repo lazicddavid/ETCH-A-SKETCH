@@ -32,6 +32,3 @@ board.addEventListener("mouseover", (e) => {
 btnColor.addEventListener("click", () => (mode = "color"));
 btnEraser.addEventListener("click", () => (mode = "eraser"));
 btnClear.addEventListener("click", () => grid(SIZE));
-
-grid(SIZE);
-board;
