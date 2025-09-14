@@ -74,4 +74,5 @@ button.btn:hover {
   display: block;
   flex-direction: column;
   align-items: center;
+  list-style: none;
 }
