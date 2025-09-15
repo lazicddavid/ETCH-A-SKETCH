@@ -77,8 +77,5 @@ button.btn:hover {
   list-style: none;
 }
 
-.body {
-  background-color: #ccc;
-  color: #ccc;
-  display: block;
+.buttons {
 }
