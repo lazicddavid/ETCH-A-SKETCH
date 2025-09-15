@@ -80,5 +80,5 @@ button.btn:hover {
 .body {
   background-color: #ccc;
   color: #ccc;
-  margin: 0 auto;
+  display: block;
 }
