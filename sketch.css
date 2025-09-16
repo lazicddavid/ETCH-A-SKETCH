@@ -75,3 +75,10 @@ button.btn:hover {
   display: flex;
   justify-self: center;
 }
+
+.picker-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
