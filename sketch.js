@@ -12,7 +12,7 @@ const btnEraser = document.querySelector(".eraser");
 const btnClear = document.querySelector(".clear");
 const sizeInput = document.getElementById("size");
 
-let currentColor = "#red";
+let currentColor = "red";
 let SIZE = 16;
 
 function grid(n = SIZE) {
