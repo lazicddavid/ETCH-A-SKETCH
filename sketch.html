@@ -18,17 +18,21 @@
             type="color"
             id="background"
             name="background"
-            value="oklab(50% 0.1 0.1 / 0.5)"
-            colorspace="display-p3"
-            alpha
+            value="#ff0000"
           />
-          <label for="background">Background color</label>
+          <label for="background">Brush color</label>
         </div>
 
         <button class="btn color-mode">Color Mode</button>
         <button class="btn random-mode">Random Mode</button>
         <button class="btn eraser">Eraser</button>
         <button class="btn clear">Clear</button>
+
+        <div>
+          <label for="size">Grid size:</label>
+          <input type="range" id="size" min="2" max="64" value="16" />
+          <span id="sizeValue">16 × 16</span>
+        </div>
       </div>
 
       <div class="board"></div>
