@@ -69,7 +69,8 @@ button.btn:hover {
   border: 1px solid #ccc;
 }
 
-.id {
+.sizeValue {
+  color: #ccc;
   align-items: center;
   display: flex;
   justify-self: center;
