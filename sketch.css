@@ -82,3 +82,10 @@ button.btn:hover {
   align-items: center;
   gap: 5px;
 }
+
+.range-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
