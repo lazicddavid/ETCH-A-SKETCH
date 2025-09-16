@@ -32,8 +32,8 @@ body {
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
+  gap: 15px;
+  align-items: center;
 }
 
 button.btn {
