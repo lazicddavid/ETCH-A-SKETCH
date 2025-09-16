@@ -93,6 +93,11 @@ button.btn:hover {
   border-radius: 6px;
 }
 
+.picker-box label {
+  color: white;
+  font-size: 14px;
+}
+
 .range-box {
   display: flex;
   flex-direction: column;
