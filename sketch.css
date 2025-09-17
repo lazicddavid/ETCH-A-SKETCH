@@ -107,9 +107,5 @@ button.btn:hover {
   color: #fff;
 }
 
-.sizeValue {
-  display: block;
-  gap: 2px;
-  margin: auto;
-  padding: 40px;
+#background {
 }
