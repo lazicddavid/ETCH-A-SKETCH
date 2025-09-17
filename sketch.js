@@ -4,7 +4,13 @@
 //a na board stavi da je cell background color = current color
 //pokusaj sad da dodas input type range
 //na njega stavi EventListener pokupi vrednost iz etarget value i pokusaj da na osnovu toga napravis grid
-
+//--------------
+//napravi varijablu let mode
+//na pocetku neka bude normal
+//na klik dugmeta random mode, promeni da to bude string random
+//na klik svakog drugog dugmeta vrati ga na normal
+//unutar eventlistenera za kvadrate proveri je li mod random, ako jeste, izgenerisi random boju
+//i promeni current color u tu boju, u suprotnom uradi sto i sada radis
 const board = document.querySelector(".board");
 const colorPicker = document.getElementById("background");
 const btnColor = document.querySelector(".color-mode");
