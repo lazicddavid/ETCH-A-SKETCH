@@ -108,6 +108,7 @@ button.btn:hover {
 }
 
 .sizeValue {
+  gap: 2px;
   margin: auto;
   padding: 40px;
 }
