@@ -108,4 +108,5 @@ button.btn:hover {
 }
 
 #background {
+  columns: blue;
 }
