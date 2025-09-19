@@ -114,6 +114,6 @@ button.btn:hover {
   background-color: #ccc;
 }
 
-.sizeValue {
-  padding: 90px;
+button {
+  padding: 20px;
 }
