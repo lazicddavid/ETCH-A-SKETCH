@@ -109,6 +109,7 @@ button.btn:hover {
 
 .buttons.btn {
   margin: auto;
+  padding: 20px;
   color: #ccc;
   background-color: #ccc;
 }
