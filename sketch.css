@@ -122,5 +122,6 @@ button {
 
 .title {
   padding: 20px;
+  align-self: start;
   margin-top: auto;
 }
