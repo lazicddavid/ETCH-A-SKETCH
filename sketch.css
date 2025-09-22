@@ -129,4 +129,5 @@ button {
 
 .cell {
   display: block;
+  justify-content: center;
 }
