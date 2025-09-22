@@ -127,7 +127,6 @@ button {
   margin: auto;
 }
 
-
 .cell {
-  
+  display: block;
 }
