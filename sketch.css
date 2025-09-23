@@ -114,20 +114,5 @@ button.btn:hover {
   background-color: #ccc;
 }
 
-button {
-  padding: 20px;
-  width: 20px;
-  margin: auto;
-}
-
-.title {
-  padding: 20px;
-  align-self: start;
-  margin-top: auto;
-  margin: auto;
-}
-
-.cell {
-  display: block;
-  justify-content: center;
+#background {
 }
