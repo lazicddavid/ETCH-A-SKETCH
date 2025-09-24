@@ -17,13 +17,11 @@ const btnColor = document.querySelector(".color-mode");
 const btnEraser = document.querySelector(".eraser");
 const btnClear = document.querySelector(".clear");
 const sizeInput = document.getElementById("size");
-const btnRandom = document.querySelector(".random"); // dugme za random mod
+const btnRandom = document.querySelector(".random");
 
-// umesto "red", sinhronizuj sa picker-om
 let currentColor = colorPicker.value;
 let SIZE = 16;
 
-// NOVO: mode varijabla
 let mode = "normal";
 
 function grid(n = SIZE) {
@@ -37,7 +35,6 @@ function grid(n = SIZE) {
   }
 }
 
-// helper za random boju
 function getRandomColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
@@ -46,7 +43,7 @@ function getRandomColor() {
 
 colorPicker.addEventListener("input", (e) => {
   currentColor = e.target.value;
-  mode = "normal"; // svako drugo dugme vraća na normal
+  mode = "normal";
 });
 
 btnColor.addEventListener("click", () => {
@@ -60,18 +57,17 @@ btnEraser.addEventListener("click", () => {
 });
 
 btnRandom?.addEventListener("click", () => {
-  mode = "random"; // aktiviraj random
+  mode = "random";
 });
 
 board.addEventListener("mouseover", (e) => {
   const cell = e.target.closest(".cell");
   if (!cell) return;
 
-  // ako je random, generiši boju za svaki potez
   let drawColor = currentColor;
   if (mode === "random") {
     drawColor = getRandomColor();
-    currentColor = drawColor; // ažuriraj currentColor na tu nasumičnu
+    currentColor = drawColor;
   }
 
   cell.style.backgroundColor = drawColor;
