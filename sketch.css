@@ -102,19 +102,3 @@ button.btn:hover {
   align-items: center;
   gap: 5px;
 }
-
-.sizeValue {
-  color: #fff;
-}
-
-.buttons.btn {
-  margin: auto;
-  padding: 20px;
-  color: #ccc;
-  background-color: #ccc;
-}
-
-#background {
-  text-align: center;
-  justify-content: center;
-}
